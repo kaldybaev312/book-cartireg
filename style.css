@@ -1,0 +1,25 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url('photo-1553605249-4dc77f76dddf.avif');
+    background-size: cover;
+    color: #fff;
+    & h1{
+        width: 650px;
+        font-size: 75px;
+    }
+
+    & p{
+        font-size: 24px;
+    }
+}
+footer{
+    height: 90px;
+    background: #666;
+    color: #fff;
+}
